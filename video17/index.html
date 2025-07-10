@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        /* div{
+            background-color: red;
+
+        } */
+         /* Class selectors */
+        .red{
+            background-color: red;
+        }
+        /* Id selectors */
+        #green{
+            background-color: green;
+        }
+        /* Child selectors */
+        div > p{
+            color: blue;
+            background-color: brown;
+
+        }
+        /* Desendant selectors */
+        div p{
+            color: blue;
+            background-color: brown;
+
+        }
+        /* Universal Selectors */
+        *{
+           margin: 0;
+           padding: 0;
+
+        }
+        /* pseudo Selectors */
+        a:visited{
+            color:yellow;
+        
+        }
+        a:link{
+            color:green;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+background-color: yellow;
+        }
+        p:first-child{
+            background-color: aqua;
+        }
+
+
+    </style>
+</head>
+<body>
+    <main class="one">
+        <p>Iam first </p>
+        <p>Iam second </p>
+    </main>
+    <div class="red">
+        <article>
+            <p>I am a para inside div</p>
+        </article>
+    </div>
+    <div id="green">
+        Iam another div
+    </div>
+    <a href="https://www.google.com">Go to the google</a>
+    <a href="https://wwww.fecbook2.com">Go to the fecbook</a>
+</body>
+</html>
